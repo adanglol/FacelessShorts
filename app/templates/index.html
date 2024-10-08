@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FacelessShorts</title>
+</head>
+<body>
+    <div>
+        
+    </div>
+    <h1>FacelessShorts</h1>
+    <form action="/generate" method="POST">
+        <label for="user_name">Title:</label>
+        <br>
+        <textarea name="title" id="title" required></textarea>
+        <br>
+        <label for="user_prompt">Describe Story:</label><br>
+        <textarea id="user_prompt" name="user_prompt" required></textarea>
+        <br>
+        <label for="background_image">Describe Background Image</label>
+        <br>
+        <textarea name="background_image" id="background_image" required></textarea>
+        <br>
+        <button type="submit">Generate Video</button>
+    </form>
+</body>
+</html>
